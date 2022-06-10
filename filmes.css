@@ -1,0 +1,78 @@
+.body{
+    font-family: 'Opens Sans', sans-serif;
+    background-image: url(Imagens/pngwing.com.png);
+    margin: 0;
+}
+img{
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+.menu-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+.menu-container ul{
+    display: inline;
+}
+.menu-container li{
+    display: inline;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+.menu-container div{
+    display: inline;
+    float: right;
+    margin-right: 2rem;
+}
+.menu-container a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: rgb(13, 178, 255);
+}
+p{
+    line-height: 145%;
+    font-size: 25px;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.web-content{
+    text-align: center;
+}
+.web-content h1{
+    text-shadow: 1px 1px 80px  rgb(241, 23, 7), 1px 1px 59px rgb(241, 7, 7) , 1px 1px 98px rgb(241, 7, 7) , -1px -1px 40px rgb(241, 7, 7);
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    padding-top: 1.5rem;
+}
+.main-footer{
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    text-align: center;
+}
+.main-footer li{
+    margin-left: -7rem;
+    text-align: center;
+    display: inline;
+}
+.main-footer a{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(68, 68, 68);
+    display: inline;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: red;
+    text-decoration: none;
+    margin-left: 2rem;
+}

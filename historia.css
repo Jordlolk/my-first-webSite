@@ -1,0 +1,48 @@
+.body{
+    font-family: 'Opens Sans', sans-serif;
+    background-image: url(Imagens/pngwing.com.png);
+    margin: 0;
+}
+.menu-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+.menu-container ul{
+    display: inline;
+}
+.menu-container li{
+    display: inline;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+.menu-container div{
+    display: inline;
+    float: right;
+    margin-right: 2rem;
+}
+.menu-container a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: rgb(13, 178, 255);
+}
+.main-content{
+    text-align: center;
+    padding-top: 2rem;
+}
+.main-content h1{
+    color: yellow;
+}
+.main-content figure iframe{
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(247, 243, 5);
+}
+.end-content{
+    text-align: center;
+    color: yellow;
+}

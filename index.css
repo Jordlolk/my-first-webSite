@@ -1,0 +1,132 @@
+.body{
+    background-image: url(Imagens/pngwing.com.png);
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: bolder;
+}
+#teste{
+    border-style: solid;
+    border-color: rgb(6, 158, 247);
+    border-width: 0.4rem;
+}
+.menu-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: black;
+}
+.menu ul li{
+    display: inline;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(13, 178, 255);
+    padding: 1rem;
+}
+.menu div{
+    padding: 0rem;
+    display: inline-block;
+    float: right;
+    margin-right: 2rem;
+}
+.menu ul li a:hover{
+    background-color: gold;
+}
+.logo div{
+    width: 50%;
+    margin: auto;
+}
+.theme{
+    text-shadow: 1px 1px 9px  rgb(7, 167, 241), -1px 0px 1px rgb(7, 167, 241) , 1px 1px 40px rgb(7, 167, 241) , -1px -1px 90px rgb(7, 167, 241);
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+}
+.texto{
+    text-align: center;
+    line-height: 160%;
+    max-width: 80%;
+    display: flex;
+    color: yellow;
+    margin: auto;
+    font-size: 25px;
+}
+h2, h3{
+    color: yellow;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.geralper{
+    background-color: black;
+    width: 55rem;
+    color: yellow;
+    padding-top: 0;
+    display: flex;
+    margin: auto;
+}
+.geralper div figcaption{
+    text-align: center;
+}
+.geralper img{
+    height: 20rem;
+    width: 12rem;
+    margin: auto;
+}
+.geralper2{
+    background-color: black;
+    width: 55rem;
+    color: yellow;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    display: flex;
+    margin: auto;
+}
+.geralper2 div figcaption{
+    text-align: center;
+}
+.geralper2 img{
+    margin: auto;
+    height: 20rem;
+    width: 12rem;}
+.iframe{
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+}
+.iframe iframe{
+    border-style: solid;
+    border-color: rgb(6, 158, 247);
+    border-width: 5px;
+    margin-bottom: 1rem;
+}
+.footer{
+    height: 7rem;
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.footer ul{
+    
+    text-decoration: none;
+}
+.footer li{
+    margin-bottom: 22px;
+}
+.footer a{
+    color: rgb(36, 210, 253);
+    margin-left: auto;
+    margin-right: 4rem;
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+    text-decoration: none;
+}
+
