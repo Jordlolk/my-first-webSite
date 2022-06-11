@@ -3,32 +3,7 @@
     background-image: url(Imagens/pngwing.com.png);
     margin: 0;
 }
-.menu-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 100%;
-    background-color: black;
-}
-.menu-container li{
-      display: inline;
-      margin-left: 1rem;
-      font-size: 20px;
-  }
-.menu-container ul li a{
-      text-decoration: none;
-      color: rgb(13, 178, 255);
-      padding: 1rem;
-  }
-.menu-container div{
-    display: inline-block;
-    float: right;
-    margin-right: 1rem;
-  }
-.menu-container ul li a:hover{
-      background-color: gold;
-}
+
 .main-content{
     text-align: center;
     padding-top: 2rem;
