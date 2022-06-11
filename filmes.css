@@ -31,9 +31,14 @@ img{
     margin-right: 2rem;
 }
 .menu-container a{
+    padding: 1rem;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 2rem;
     color: rgb(13, 178, 255);
+}
+.menu-container li a:hover{
+    background-color: gold;
 }
 p{
     line-height: 145%;
