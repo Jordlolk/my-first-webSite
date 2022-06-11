@@ -22,8 +22,9 @@
       padding: 1rem;
 }
 .menu-container div{
+    padding: 0.5rem;
     display: inline-block;
-    float: right;
+    float: right ;
     margin-right: 1rem;
 }
 .menu-container ul li a:hover{
