@@ -24,7 +24,7 @@
 .menu-container div{
     display: inline-block;
     float: right;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 .menu-container ul li a:hover{
       background-color: gold;
