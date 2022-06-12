@@ -1,9 +1,9 @@
 .body{
     background-image: url(Imagens/pngwing.com.png);
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     font-weight: bolder;
+
 }
 #teste{
     border-style: solid;
